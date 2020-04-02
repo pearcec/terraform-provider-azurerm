@@ -19,6 +19,8 @@ import (
 	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/utils"
 )
 
+var routeFilterResourceName = "azurerm_route_filter"
+
 func resourceArmRouteFilter() *schema.Resource {
 	return &schema.Resource{
 		Create: resourceArmRouteFilterCreateUpdate,

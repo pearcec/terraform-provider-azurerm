@@ -92,6 +92,7 @@ func (r Registration) SupportedResources() map[string]*schema.Resource {
 		"azurerm_network_watcher_flow_log":                                               resourceArmNetworkWatcherFlowLog(),
 		"azurerm_network_watcher":                                                        resourceArmNetworkWatcher(),
 		"azurerm_route_filter":                                                           resourceArmRouteFilter(),
+		"azurerm_route_filter_rule":                                                      resourceArmRouteFilterRule(),
 		"azurerm_route_table":                                                            resourceArmRouteTable(),
 		"azurerm_route":                                                                  resourceArmRoute(),
 		"azurerm_subnet_network_security_group_association":                              resourceArmSubnetNetworkSecurityGroupAssociation(),
